@@ -1,8 +1,8 @@
 const assert = require('assert');
 
-describe('template test', function () {
+describe('template test', () => {
   describe('test stub', () => {
-     it('nothing', async () => {
+    it('nothing', async () => {
       assert(true);
     });
   });
