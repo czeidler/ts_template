@@ -2,7 +2,7 @@
   "name": "ts-template",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/main/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch & nodemon dist",
@@ -15,7 +15,7 @@
   "license": "SmartParking",
   "devDependencies": {
     "@types/long": "^4.0.0",
-    "@types/mocha": "^5.2.5",
+    "@types/mocha": "^5.2.6",
     "@types/node": "^11.13.10",
     "@typescript-eslint/eslint-plugin": "^1.4.2",
     "@typescript-eslint/parser": "^1.4.2",
@@ -26,5 +26,6 @@
     "ts-node": "^8.1.0",
     "typescript": "^3.3.3333"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
