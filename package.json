@@ -5,6 +5,7 @@
   "main": "dist/main/index.js",
   "scripts": {
     "build": "tsc",
+    "start": "tsx src/main/index.ts",
     "dev": "tsc --watch & nodemon dist",
     "test": "tsc && mocha dist/**/*.test.js",
     "lint": "eslint src --ext ts",
