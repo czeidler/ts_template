@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/long": "5.0.0",
     "@types/mocha": "^10",
-    "@types/node": "^22",
+    "@types/node": "^24",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
     "eslint": "^8",
